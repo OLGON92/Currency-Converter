@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container">
+    <header class="jumbotron">
+      <h1>Hello, welcome to the epic Currency Converter!</h1>
+    </header>
+    <main>
+      <div id="introduction">
+        <p id="greetings">Thank you for joining me! I am a currency converter known as Convertotron. My mission in life is to help humans understand the conversion rate between various earth nations.</p>
+        <p>I am very easy to use:</p>
+        <ol>
+          <li>Enter the number you would like to convert.</li>
+          <li>Then choose an ISO 4217 code that represents the initial country you would like to convert from.</li>
+          <li>Then pick a second ISO 4217 code that represents the country you would like to exchange your currency to.</li>
+          <li>Example: 125 USD to EUR</li>
+        </ol>
+        <p><a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">Click here</a> to find out what an ISO 4217 code is.</p>
+        <p><a href="https://www.exchangerate-api.com/docs/supported-currencies" target="_blank">Click here</a> to see which currencies are supported.</p>
+      </div>
+      <form>
+        <div class="form-group col-9">
+          <label for="init-amount">Enter amount here:</label>
+          <input id="init-amount" type="number" min="0" required>
+          <br>
+          <label for="country1">Choose first country to convert from:</label>
+          <input id="country1" type="text" pattern="[A-Za-z]{3}"required>
+          <br>
+          <label for="country2">Choose second country to convert to:</label>
+          <input id="country2" type="text" pattern="[A-Za-z]{3}"required>
+        </div>
+        <button class="btn ml-3" type="submit">Submit!</button>
+      </form>
+      <div id="output-div">
+        <h3>Here are the results!</h3>
+        <p>Converted rate is: <span class="showRate"></span></p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
