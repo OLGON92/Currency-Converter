@@ -16,7 +16,7 @@
 
 ## Description
 
-_ This is my fifh project for Epicodus that is meant to show off my understanding of testing with jest. The user will enter their age to see how old they are in years on Mercury, Venus, Mars, and Jupiter; it will also let you know how long you have to live in years on the planets mentioned or how how many years you are over the life expectancy. Here is a [link](https://github.com/OLGON92/Galactic-Age-Calculator) to the repository on GitHub. _
+_This is my fifh project for Epicodus that is meant to show off my understanding of testing with jest. The user will enter their age to see how old they are in years on Mercury, Venus, Mars, and Jupiter; it will also let you know how long you have to live in years on the planets mentioned or how how many years you are over the life expectancy. Here is a [link](https://github.com/OLGON92/Galactic-Age-Calculator) to the repository on GitHub._
 
 ## Setup/Installation Requirements
 * _Clone the repository using this link: [link](https://github.com/OLGON92/Galactic-Age-Calculator)_
