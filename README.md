@@ -37,7 +37,8 @@ _This is my sixth project for Epicodus that is meant to show off my understandin
 * _You will then receive a personalized API key._
 * _Create a .env file in the top level of the directory for 'currency-convert' using your console_
 * _Navigate to the .env file._
-* _Inside the file set API_KEY equal to the personalized API Key you received earlier. E.g API_KEY=8675309_
+* _Inside the .env file set API_KEY equal to the personalized API Key you received earlier. E.g API_KEY=8675309_
+* _Your API endpoint should look something like this:`https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/pair/EUR/GBP/AMOUNT` when you make your call._
 * _You may also test your API call using an API tester. My personal favorite is Postman._
 
 ## Known Bugs
